@@ -1,397 +1,505 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arume Jewelry – Timeless Elegance</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arume Jewelry – Timeless Elegance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAV -->
-<nav id="navbar">
-  <a href="#" class="nav-logo">
-  <img src="images/logo.png" alt="Arume Jewelry Logo" style="height: 40px; width: auto;">
-  <div class="nav-logo-text">
-    <span>ARUME</span>
-    <span>JEWELRY</span>
-  </div>
-</a>
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#home">HOME</a></li>
-    <li><a href="#collection">COLLECTION</a></li>
-    <li><a href="#about">ABOUT</a></li>
-    <li><a href="#why">WHY US</a></li>
-    <li><a href="#testimonials">TESTIMONIALS</a></li>
-    <li><a href="#faq">FAQ</a></li>
-    <li><a href="#contact">CONTACT</a></li>
-  </ul>
-  <div class="nav-icons">
-    <button aria-label="Search">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    </button>
-    <button aria-label="Cart">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
-    </button>
-    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</nav>
-
-<!-- MOBILE MENU -->
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#home">Home</a>
-  <a href="#collection">Collection</a>
-  <a href="#about">About</a>
-  <a href="#why">Why Us</a>
-  <a href="#testimonials">Testimonials</a>
-  <a href="#faq">FAQ</a>
-  <a href="#contact">Contact</a>
-</div>
-
-<!-- HERO -->
-<section class="hero" id="home">
-  <div class="hero-content">
-    <div class="hero-tag">TIMELESS BEAUTY</div>
-    <h1 class="hero-title">Timeless Elegance<br>in Every Detail</h1>
-    <p class="hero-desc">Discover our handcrafted jewelry, made with passion and the finest materials.</p>
-    <div class="hero-btns">
-      <a href="#collection" class="btn-primary">EXPLORE COLLECTION</a>
-      <a href="#about" class="btn-secondary">ABOUT OUR BRAND</a>
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">
+      <img src="images/logo.png" alt="Arume Jewelry Logo" style="height: 40px; width: auto;">
+      <div class="nav-logo-text">
+        <span>ARUME</span>
+        <span>JEWELRY</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#collection">COLLECTION</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#why">WHY US</a></li>
+      <li><a href="#testimonials">TESTIMONIALS</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <div class="nav-icons">
+      <button aria-label="Search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+      </button>
+      <button aria-label="Cart">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
-    <div class="hero-badges">
-      <div class="hero-badge">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
-        Premium Materials
-      </div>
-      <div class="hero-badge">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-        Handcrafted
-      </div>
-      <div class="hero-badge">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        Lifetime Warranty
-      </div>
-    </div>
-  </div>
-  <div class="hero-image">
-    <img src="images/hero.jpeg" alt="Arume Jewelry">
-  </div>
-</section>
+  </nav>
 
-<!-- FEATURED COLLECTION -->
-<section class="collection" id="collection">
-  <div class="container">
-    <div class="section-label">OUR BEST COLLECTION</div>
-    <h2 class="section-title">Featured Collection</h2>
-    <div class="collection-grid">
-      <!-- Card 1 -->
-      <div class="product-card">
-        <div class="product-img">
-          <img src="images/kalung.jpeg" alt="Lune Necklace">
-        </div>
-        <div class="product-info">
-          <div class="product-name">Lune Necklace</div>
-          <div class="product-material">925 Silver</div>
-          <div class="product-bottom">
-            <div class="product-price">$129.00</div>
-            <div class="product-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
-          </div>
-        </div>
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#about">About</a>
+    <a href="#why">Why Us</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-tag">TIMELESS BEAUTY</div>
+      <h1 class="hero-title">Timeless Elegance<br>in Every Detail</h1>
+      <p class="hero-desc">Discover our handcrafted jewelry, made with passion and the finest materials.</p>
+      <div class="hero-btns">
+        <a href="#collection" class="btn-primary">EXPLORE COLLECTION</a>
+        <a href="#about" class="btn-secondary">ABOUT OUR BRAND</a>
       </div>
-      <!-- Card 2 -->
-      <div class="product-card">
-        <div class="product-img">
-          <img src="images/anting.jpeg" alt="Grace Earrings">
+      <div class="hero-badges">
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+          </svg>
+          Premium Materials
         </div>
-        <div class="product-info">
-          <div class="product-name">Grace Earrings</div>
-          <div class="product-material">Gold Plated</div>
-          <div class="product-bottom">
-            <div class="product-price">$109.00</div>
-            <div class="product-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
-          </div>
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+          Handcrafted
         </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="product-card">
-        <div class="product-img">
-          <img src="images/gelang.jpeg" alt="Eternal Bracelet">         
-        </div>
-        <div class="product-info">
-          <div class="product-name">Eternal Bracelet</div>
-          <div class="product-material">925 Silver</div>
-          <div class="product-bottom">
-            <div class="product-price">$149.00</div>
-            <div class="product-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
-          </div>
-        </div>
-      </div>
-      <!-- Card 4 -->
-      <div class="product-card">
-        <div class="product-img">
-          <img src="images/cincin.jpeg" alt="Aurora Ring">
-        </div>
-        <div class="product-info">
-          <div class="product-name">Aurora Ring</div>
-          <div class="product-material">Gold Plated</div>
-          <div class="product-bottom">
-            <div class="product-price">$99.00</div>
-            <div class="product-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
-          </div>
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          Lifetime Warranty
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- STORY -->
-<section id="about" style="padding:0;">
-  <div class="story">
-    <div class="story-img story-img-placeholder">
-  <img src="images/kalungbiru.jpeg" alt="About Us">
-</div>
-    <div class="story-content">
-      <div class="section-label">OUR STORY</div>
-      <h2 class="section-title" style="margin-bottom:0;">Crafted with Passion,<br>Designed to Last</h2>
-      <div class="story-divider-diamond"><span>✦</span></div>
-      <p class="story-text">Arume Jewelry was born from a love for timeless beauty and delicate craftsmanship. Every piece is thoughtfully handcrafted by skilled artisans using premium materials, creating elegant jewelry designed to be cherished for years to come.</p>
-      <p class="story-text">Inspired by simplicity and modern femininity, our collections are made to complement everyday moments while remaining meaningful for special occasions. With attention to every detail, Arume Jewelry brings together elegance, quality, and lasting sophistication in every creation.</p>
+    <div class="hero-image">
+      <img src="images/hero.jpeg" alt="Arume Jewelry">
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- WHY CHOOSE US -->
-<section class="why" id="why">
-  <div class="container">
-    <div class="why-label">WHY CHOOSE US</div>
-    <div class="why-divider"><span>✦</span></div>
-    <div class="why-grid">
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
-        </div>
-        <h4>Premium Materials</h4>
-        <p>We use high-quality materials and real gemstones.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-        </div>
-        <h4>Handcrafted</h4>
-        <p>Each piece is carefully handcrafted by expert artisans.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9,12 11,14 15,10"/></svg>
-        </div>
-        <h4>Lifetime Warranty</h4>
-        <p>We stand behind our quality with lifetime warranty.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="1" y="3" width="15" height="13"/><polygon points="16,8 20,8 23,11 23,16 16,16 16,8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-        </div>
-        <h4>Worldwide Shipping</h4>
-        <p>Fast and secure delivery to your door, anywhere in the world.</p>
-      </div>
-    </div>
-  </div>
-</section>
+  <!-- FEATURED COLLECTION -->
+  <section class="collection" id="collection">
+    <div class="container">
+      <div class="section-label">OUR BEST COLLECTION</div>
+      <h2 class="section-title">Featured Collection</h2>
+      <div class="collection-grid">
 
-<!-- TESTIMONIALS -->
-<section class="testimonials" id="testimonials">
-  <div class="container">
-    <div class="section-label" style="text-align:center;">TESTIMONIALS</div>
-    <div class="test-divider"><span>✦</span></div>
-    <div class="test-grid">
-      <div class="test-card">
-        <div class="test-top">
-          <div class="test-avatar" style="background:#8899aa;display:flex;align-items:center;justify-content:center;">
-            <img src="images/1.png" alt="Sarah M">
+        <div class="product-card">
+          <div class="product-img">
+            <img src="images/kalung.jpeg" alt="Lune Necklace">
           </div>
-          <div class="test-stars">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <div class="product-info">
+            <div class="product-name">Lune Necklace</div>
+            <div class="product-material">925 Silver</div>
+            <div class="product-bottom">
+              <div class="product-price">$129.00</div>
+              <div class="product-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
-        <p class="test-quote">"The quality is outstanding and the design is so elegant."</p>
-        <div class="test-name">Sarah M.</div>
-      </div>
-      <div class="test-card">
-        <div class="test-top">
-          <div class="test-avatar" style="background:#7788aa;display:flex;align-items:center;justify-content:center;">
-            <img src="images/2.png" alt="John D">
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="images/anting.jpeg" alt="Grace Earrings">
           </div>
-          <div class="test-stars">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-          </div>
-        </div>
-        <p class="test-quote">"My favorite jewelry store! Everything looks so premium."</p>
-        <div class="test-name">Amanda</div>
-      </div>
-      <div class="test-card">
-        <div class="test-top">
-          <div class="test-avatar" style="background:#6677aa;display:flex;align-items:center;justify-content:center;">
-            <img src="images/3.png" alt="Jessica T.">
-          </div>
-          <div class="test-stars">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <div class="product-info">
+            <div class="product-name">Grace Earrings</div>
+            <div class="product-material">Gold Plated</div>
+            <div class="product-bottom">
+              <div class="product-price">$109.00</div>
+              <div class="product-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
-        <p class="test-quote">"Fast delivery and beautiful packaging. Love it!"</p>
-        <div class="test-name">Jessica T.</div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="images/gelang.jpeg" alt="Eternal Bracelet">
+          </div>
+          <div class="product-info">
+            <div class="product-name">Eternal Bracelet</div>
+            <div class="product-material">925 Silver</div>
+            <div class="product-bottom">
+              <div class="product-price">$149.00</div>
+              <div class="product-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="images/cincin.jpeg" alt="Aurora Ring">
+          </div>
+          <div class="product-info">
+            <div class="product-name">Aurora Ring</div>
+            <div class="product-material">Gold Plated</div>
+            <div class="product-bottom">
+              <div class="product-price">$99.00</div>
+              <div class="product-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- FAQ -->
-<section id="faq" style="padding:0;">
-  <div class="faq-inner">
-    <div class="faq-content">
-      <div class="faq-label">FREQUENTLY ASKED QUESTIONS</div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-header" aria-expanded="true">
-            <span>What materials do you use?</span>
-            <div class="faq-toggle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-          </button>
-          <div class="faq-answer open"><p>We use 925 sterling silver, 18k gold plating, and genuine gemstones. All materials are ethically sourced and hypoallergenic.</p></div>
+  <!-- STORY -->
+  <section id="about" style="padding: 0;">
+    <div class="story">
+      <div class="story-img story-img-placeholder">
+        <img src="images/kalungbiru.jpeg" alt="About Us">
+      </div>
+      <div class="story-content">
+        <div class="section-label">OUR STORY</div>
+        <h2 class="section-title" style="margin-bottom: 0;">Crafted with Passion,<br>Designed to Last</h2>
+        <div class="story-divider-diamond"><span>✦</span></div>
+        <p class="story-text">Arume Jewelry was born from a love for timeless beauty and delicate craftsmanship. Every piece is thoughtfully handcrafted by skilled artisans using premium materials, creating elegant jewelry designed to be cherished for years to come.</p>
+        <p class="story-text">Inspired by simplicity and modern femininity, our collections are made to complement everyday moments while remaining meaningful for special occasions. With attention to every detail, Arume Jewelry brings together elegance, quality, and lasting sophistication in every creation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="why-label">WHY CHOOSE US</div>
+      <div class="why-divider"><span>✦</span></div>
+      <div class="why-grid">
+
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+            </svg>
+          </div>
+          <h4>Premium Materials</h4>
+          <p>We use high-quality materials and real gemstones.</p>
         </div>
-        <div class="faq-item">
-          <button class="faq-header" aria-expanded="false">
-            <span>Do you offer international shipping?</span>
-            <div class="faq-toggle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-          </button>
-          <div class="faq-answer"><p>Yes! We ship worldwide. International shipping typically takes 7–14 business days depending on your location.</p></div>
+
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h4>Handcrafted</h4>
+          <p>Each piece is carefully handcrafted by expert artisans.</p>
         </div>
-        <div class="faq-item">
-          <button class="faq-header" aria-expanded="false">
-            <span>How long does shipping take?</span>
-            <div class="faq-toggle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-          </button>
-          <div class="faq-answer"><p>Domestic orders arrive in 3–5 business days. International orders may take 7–14 business days. Express shipping is available at checkout.</p></div>
+
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <polyline points="9,12 11,14 15,10"/>
+            </svg>
+          </div>
+          <h4>Lifetime Warranty</h4>
+          <p>We stand behind our quality with lifetime warranty.</p>
         </div>
-        <div class="faq-item">
-          <button class="faq-header" aria-expanded="false">
-            <span>Do you provide gift packaging?</span>
-            <div class="faq-toggle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-          </button>
-          <div class="faq-answer"><p>Absolutely! Every order comes in our signature gift box at no extra charge. You can also add a personalized message card during checkout.</p></div>
+
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="1" y="3" width="15" height="13"/>
+              <polygon points="16,8 20,8 23,11 23,16 16,16 16,8"/>
+              <circle cx="5.5" cy="18.5" r="2.5"/>
+              <circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <h4>Worldwide Shipping</h4>
+          <p>Fast and secure delivery to your door, anywhere in the world.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-label" style="text-align: center;">TESTIMONIALS</div>
+      <div class="test-divider"><span>✦</span></div>
+      <div class="test-grid">
+
+        <div class="test-card">
+          <div class="test-top">
+            <div class="test-avatar" style="background: #8899aa; display: flex; align-items: center; justify-content: center;">
+              <img src="images/1.png" alt="Sarah M">
+            </div>
+            <div class="test-stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+            </div>
+          </div>
+          <p class="test-quote">"The quality is outstanding and the design is so elegant."</p>
+          <div class="test-name">Sarah M.</div>
+        </div>
+
+        <div class="test-card">
+          <div class="test-top">
+            <div class="test-avatar" style="background: #7788aa; display: flex; align-items: center; justify-content: center;">
+              <img src="images/2.png" alt="Amanda">
+            </div>
+            <div class="test-stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+            </div>
+          </div>
+          <p class="test-quote">"My favorite jewelry store! Everything looks so premium."</p>
+          <div class="test-name">Amanda</div>
+        </div>
+
+        <div class="test-card">
+          <div class="test-top">
+            <div class="test-avatar" style="background: #6677aa; display: flex; align-items: center; justify-content: center;">
+              <img src="images/3.png" alt="Jessica T.">
+            </div>
+            <div class="test-stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+            </div>
+          </div>
+          <p class="test-quote">"Fast delivery and beautiful packaging. Love it!"</p>
+          <div class="test-name">Jessica T.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" style="padding: 0;">
+    <div class="faq-inner">
+      <div class="faq-content">
+        <div class="faq-label">FREQUENTLY ASKED QUESTIONS</div>
+        <div class="faq-list">
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="true">
+              <span>What materials do you use?</span>
+              <div class="faq-toggle">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"/>
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+              </div>
+            </button>
+            <div class="faq-answer open">
+              <p>We use 925 sterling silver, 18k gold plating, and genuine gemstones. All materials are ethically sourced and hypoallergenic.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>Do you offer international shipping?</span>
+              <div class="faq-toggle">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"/>
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+              </div>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! We ship worldwide. International shipping typically takes 7–14 business days depending on your location.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>How long does shipping take?</span>
+              <div class="faq-toggle">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"/>
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+              </div>
+            </button>
+            <div class="faq-answer">
+              <p>Domestic orders arrive in 3–5 business days. International orders may take 7–14 business days. Express shipping is available at checkout.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>Do you provide gift packaging?</span>
+              <div class="faq-toggle">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"/>
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+              </div>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely! Every order comes in our signature gift box at no extra charge. You can also add a personalized message card during checkout.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="faq-image">
+        <img src="images/cincin33.jpeg" alt="FAQ Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-left">
+          <div class="contact-label">GET IN TOUCH</div>
+          <h2 class="contact-title">We'd Love to Hear From You</h2>
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>123 Jewelry Street</span>
+            </div>
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <a href="mailto:hello@arumejewelry.com">hello@arumejewelry.com</a>
+            </div>
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.45a2 2 0 0 1 1.99-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>(123) 456-7890</span>
+            </div>
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              <span>Mon - Sat: 10.00 AM – 8.00 PM</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <input type="text" id="fname" class="form-input" placeholder="Your Name">
+              <input type="email" id="femail" class="form-input" placeholder="Your Email">
+            </div>
+            <textarea id="fmessage" class="form-input" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn-submit">SEND MESSAGE</button>
+          </form>
         </div>
       </div>
     </div>
-    <div class="faq-image">
-  <img src="images/cincin33.jpeg" alt="FAQ Image">
-</div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- CONTACT -->
-<section class="contact" id="contact">
-  <div class="container">
-    <div class="contact-inner">
-      <div class="contact-left">
-        <div class="contact-label">GET IN TOUCH</div>
-        <h2 class="contact-title">We'd Love to Hear From You</h2>
-        <div class="contact-info">
-          <div class="contact-info-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>123 Jewelry Street</span>
-          </div>
-          <div class="contact-info-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <a href="mailto:hello@arumejewelry.com">hello@arumejewelry.com</a>
-          </div>
-          <div class="contact-info-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.45a2 2 0 0 1 1.99-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span>(123) 456-7890</span>
-          </div>
-          <div class="contact-info-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            <span>Mon - Sat: 10.00 AM – 8.00 PM</span>
-          </div>
-        </div>
-      </div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+
       <div>
-        <form class="contact-form" id="contactForm" novalidate>
-          <div class="form-row">
-            <input type="text" id="fname" class="form-input" placeholder="Your Name">
-            <input type="email" id="femail" class="form-input" placeholder="Your Email">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Arume Jewelry Logo" style="height: 56px; width: auto;">
+          <div style="display: flex; flex-direction: column;">
+            <span style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; letter-spacing: 3px; color: #ffffff;">ARUME</span>
+            <span style="font-family: 'Playfair Display', serif; font-size: 11px; letter-spacing: 4px; color: #D4A373; margin-top: 2px;">JEWELRY</span>
+            <div style="width: 100%; height: 1px; background: #D4A373; margin-top: 8px;"></div>
+            <span style="font-size: 13px; color: rgba(255,255,255,0.65); margin-top: 12px; font-family: 'Inter', sans-serif; line-height: 1.6;">Timeless elegance,<br>crafted for you.</span>
+            <div style="display: flex; gap: 12px; margin-top: 16px;">
+              <a href="#" aria-label="Instagram" style="width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="Facebook" style="width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="TikTok" style="width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V9.05a8.26 8.26 0 004.83 1.56V7.18a4.85 4.85 0 01-1.06-.49z"/>
+                </svg>
+              </a>
+            </div>
           </div>
-          <textarea id="fmessage" class="form-input" placeholder="Your Message"></textarea>
-          <button type="submit" class="btn-submit">SEND MESSAGE</button>
-        </form>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-inner">
-   <div>
-  <div class="footer-logo">
-    <img src="images/logo.png" alt="Arume Jewelry Logo" style="height: 56px; width: auto;">
-    <div style="display: flex; flex-direction: column;">
-      <span style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; letter-spacing: 3px; color: #ffffff;">ARUME</span>
-<span style="font-family: 'Playfair Display', serif; font-size: 11px; letter-spacing: 4px; color: #D4A373; margin-top: 2px;">JEWELRY</span>
-<div style="width: 100%; height: 1px; background: #D4A373; margin-top: 8px;"></div>
-      <span style="font-size: 13px; color: rgba(255,255,255,0.65); margin-top: 12px; font-family: 'Inter', sans-serif; line-height: 1.6;">Timeless elegance,<br>crafted for you.</span>
-      <div style="display: flex; gap: 12px; margin-top: 16px;">
-  <a href="#" aria-label="Instagram" style="width:28px;height:28px;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-  </a>
-  <a href="#" aria-label="Facebook" style="width:28px;height:28px;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-  </a>
-  <a href="#" aria-label="TikTok" style="width:28px;height:28px;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V9.05a8.26 8.26 0 004.83 1.56V7.18a4.85 4.85 0 01-1.06-.49z"/></svg>
-  </a>
-</div>
-    </div>
-  </div>
-</div>
-    <div class="footer-links">
-      <h5>QUICK LINKS</h5>
-      <div class="footer-links-grid">
-        <a href="#home">Home</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#collection">Collection</a>
-        <a href="#faq">FAQ</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#why">Why Us</a>
+      <div class="footer-links">
+        <h5>QUICK LINKS</h5>
+        <div class="footer-links-grid">
+          <a href="#home">Home</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#collection">Collection</a>
+          <a href="#faq">FAQ</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#why">Why Us</a>
+        </div>
       </div>
-    </div>
-    <div class="footer-right">
-      <div class="footer-star-icon">
-        <img src="images/kkanan.png" alt="Arume Jewelry Logo">
-      </div>
-      <p class="footer-tagline-right">Modern jewelry crafted<br>for timeless moments.</p>
-      <div class="footer-divider-gold"></div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    © 2026 LUNÉ Jewelry. All rights reserved.
-  </div>
-</footer>
 
-<script src="script.js"></script>
+      <div class="footer-right">
+        <div class="footer-star-icon">
+          <img src="images/kkanan.png" alt="Arume Jewelry Logo">
+        </div>
+        <p class="footer-tagline-right">Modern jewelry crafted<br>for timeless moments.</p>
+        <div class="footer-divider-gold"></div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      © 2026 LUNÉ Jewelry. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
