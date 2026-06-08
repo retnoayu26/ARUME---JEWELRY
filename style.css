@@ -323,12 +323,12 @@ section { padding: 80px 0; }
   border: 1px solid #eee;
   background: var(--white);
   cursor: pointer;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition: box-shadow 0.3s, transform 0.3s;
 }
 
 .product-card:hover {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
+  transform: translateY(-6px);
 }
 
 .product-img {
@@ -340,10 +340,30 @@ section { padding: 80px 0; }
   justify-content: center;
 }
 
-.product-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover .product-img img {
+  transform: scale(1.05);
+}
 
 .product-info { padding: 16px 16px 20px; }
-.product-name { font-family: var(--font-heading); font-size: 15px; font-weight: 500; margin-bottom: 4px; }
+
+.product-name {
+  font-family: var(--font-heading);
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.product-card:hover .product-name { color: var(--gold); }
+
 .product-material { font-size: 11px; color: #888; margin-bottom: 8px; }
 
 .product-bottom {
@@ -542,7 +562,10 @@ section { padding: 80px 0; }
   overflow: hidden;
   flex-shrink: 0;
   background: var(--secondary-bg);
+  transition: transform 0.3s ease;
 }
+
+.test-card:hover .test-avatar { transform: scale(1.08); }
 
 .test-avatar img { width: 100%; height: 100%; object-fit: cover; }
 
@@ -555,9 +578,20 @@ section { padding: 80px 0; }
   line-height: 1.7;
   margin-bottom: 16px;
   font-style: italic;
+  transition: color 0.3s ease;
 }
 
-.test-name { font-size: 13px; color: rgba(255, 255, 255, 0.6); font-weight: 500; }
+.test-card:hover .test-quote { color: rgba(255, 255, 255, 1); }
+
+.test-name {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.test-card:hover .test-name { color: var(--gold); }
+
 .test-name::before { content: '• '; }
 
 /* ===================== FAQ ===================== */
